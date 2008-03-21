@@ -1,6 +1,6 @@
 === Random One Cat Widget ===
 Contributors: BrokenCrust
-Tags: widget, random, post, ramdom post
+Tags: widget, random, post, random post
 Requires at least: 2.1
 Tested up to: 2.3.3
 Stable tag: 0.2
