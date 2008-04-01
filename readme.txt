@@ -2,7 +2,7 @@
 Contributors: BrokenCrust
 Tags: widget, random, post, random post, sidebar
 Requires at least: 2.5
-Tested up to: 2.5+
+Tested up to: 2.5
 Stable tag: 0.3
 
 This Widget shows a single random post from a given category.
@@ -16,7 +16,7 @@ I use this to display a random Haiku on each page, but it will work equally well
 
 There is the option to include the title of the post or (like I do) not.
 
-If you want, you can have up to nine different widgets showing a random post from nine categories.
+If you want you can add a bunch of widgets, each showing a random post from a different category.
 
 
 == Installation ==
