@@ -3,7 +3,7 @@ Contributors: BrokenCrust
 Tags: widget, random, post, random post, sidebar
 Requires at least: 2.5
 Tested up to: 2.5.1
-Stable tag: 0.3
+Stable tag: 0.4
 
 This Widget shows a single random post from a given category.
 
@@ -29,6 +29,6 @@ Installing is pretty easy takes only a few minutes.
 
 3. On the 'widgets' sub-menu of 'Design' you will find a new widget type 'Random One Cat'
 
-4. Add one or more of these to your display and select a title and category.  Decide if you'd like to see the post title.  Save your settings.
+4. Add one or more of these to your display and select a title and category.  Decide if you'd like to see the post title or custom fields.  Save your settings.
 
 5. You're done.
