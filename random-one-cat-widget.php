@@ -3,9 +3,9 @@
 Plugin Name: Random One Cat Widget
 Description: This Widget shows a single random post from a given category.
 Author: BrokenCrust
-Version: 0.4
-Author URI: http://www.brokencrust.eu/
-Plugin URI: http://www.brokencrust.eu/index.php?name=Forums&file=viewforum&f=21
+Version: 1.0
+Author URI: http://not-a-sheep.com/
+Plugin URI: http://not-a-sheep.com/random-one-cat-widget
 */
 
 function widget_random_one_cat_init() {
