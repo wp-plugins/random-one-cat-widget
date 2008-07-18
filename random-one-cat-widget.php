@@ -3,7 +3,7 @@
 Plugin Name: Random One Cat Widget
 Description: This Widget shows a single random post from a given category.
 Author: BrokenCrust
-Version: 1.0
+Version: 1.1
 Author URI: http://not-a-sheep.com/
 Plugin URI: http://not-a-sheep.com/random-one-cat-widget
 */
@@ -31,7 +31,7 @@ function widget_random_one_cat_init() {
 		$show_post_title = $options[$number]['show_post_title'];
                 $show_custom_fields = $options[$number]['show_custom_fields'];
 
-		$rand = get_posts('numberposts=1&category='.$category.'&orderby=RAND()');
+		$rand = get_posts('numberposts=1&category='.$category.'&orderby=rand');
 
 		echo $before_widget;
 		echo $before_title . $title . $after_title;
