@@ -2,7 +2,7 @@
 Contributors: BrokenCrust
 Tags: widget, random, post, random post, sidebar
 Requires at least: 2.5
-Tested up to: 2.6.3
+Tested up to: 2.6.5
 Stable tag: 1.1
 
 This Widget shows a single random post from a given category.
