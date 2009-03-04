@@ -12,7 +12,7 @@ This Widget shows a single random post from a given category.
 
 There are times when you'd like to have a certain type of post appear in a widget for use in your sidebar or (in some themes) your header.
 
-I use this to display a random Haiku on each page, but it will work equally well for any group of reasonably small posts.
+I use this to display a random Senryu on each page, but it will work equally well for any group of reasonably small posts.
 
 There is the option to include the title of the post or (like I do) not.
 
