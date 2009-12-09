@@ -2,10 +2,10 @@
 /*
 Plugin Name: Random One Cat Widget
 Description: This Widget shows a single random post from a given category.
-Author: BrokenCrust
+Author: Fecundvs
 Version: 1.1.1
-Author URI: http://www.brokencrust.eu/
-Plugin URI: http://www.brokencrust.eu/index.php?name=Forums&file=viewforum&f=23
+Author URI: http://fecundvs.com/
+Plugin URI: http://wordpress.org/extend/plugins/random-one-cat-widget/
 */
 
 function widget_random_one_cat_init() {
@@ -29,7 +29,7 @@ function widget_random_one_cat_init() {
 		$title = $options[$number]['title'];
 		$category = intval($options[$number]['category']);
 		$show_post_title = $options[$number]['show_post_title'];
-                $show_custom_fields = $options[$number]['show_custom_fields'];
+    $show_custom_fields = $options[$number]['show_custom_fields'];
 
 		$rand = get_posts('numberposts=1&category='.$category.'&orderby=rand');
 
