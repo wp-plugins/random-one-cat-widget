@@ -40,7 +40,7 @@ function widget_random_one_cat_init() {
 			<h3><?php echo $rand[0]->post_title; ?></h3>
 			<?php
 		}
-		echo $rand[0]->post_content;
+		echo do_shortcode($rand[0]->post_content);
 
 		if ($show_custom_fields == 1) {
 			$custom_fields = get_post_custom($rand[0]->ID);
@@ -121,7 +121,7 @@ function widget_random_one_cat_init() {
 
 function widget_random_one_cat_process($widget_random_one_cat) {
 	$title              = trim(strip_tags($widget_random_one_cat['title']));
-	$category           = (int) $widget_random_one_cat['category'];
+	$category           = (int) $widget_random_one_cat['category'];
 	$show_post_title    = (int) $widget_random_one_cat['show_post_title'];
 	$show_custom_fields = (int) $widget_random_one_cat['show_custom_fields'];
 
