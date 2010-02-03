@@ -1,18 +1,18 @@
 === Random One Cat Widget ===
-Contributors: Fecundvs
+Contributors: Fecûndvs
 Tags: widget, random, post, random post, sidebar
 Requires at least: 2.5
-Tested up to: 2.8.6
-Stable tag: 1.1.2
+Tested up to: 2.9.1
+Stable tag: 1.2
 
 This Widget shows a single random post from a given category.
 
 
 == Description ==
 
-There are times when you'd like to have a certain type of post appear in a widget for use in your sidebar or (in some themes) your header.
+There are times when you'd like to have a certain type of post appear in a widget for use in your sidebar or (in some themes) your header or footer.
 
-I use this to display a random Senryu on each page, but it will work equally well for any group of reasonably small posts.
+I use this to display a random senryu on each page, but it will work equally well for any group of reasonably small posts.
 
 There is the option to include the title of the post or (like I do) not.
 

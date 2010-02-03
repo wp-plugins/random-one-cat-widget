@@ -2,8 +2,8 @@
 /*
 Plugin Name: Random One Cat Widget
 Description: This Widget shows a single random post from a given category.
-Author: Fecundvs
-Version: 1.1.2
+Author: Fecûndvs
+Version: 1.2
 Author URI: http://fecundvs.com/
 Plugin URI: http://wordpress.org/extend/plugins/random-one-cat-widget/
 */
@@ -121,7 +121,7 @@ function widget_random_one_cat_init() {
 
 function widget_random_one_cat_process($widget_random_one_cat) {
 	$title              = trim(strip_tags($widget_random_one_cat['title']));
-	$category           = (int) $widget_random_one_cat['category'];
+	$category           = (int) $widget_random_one_cat['category'];
 	$show_post_title    = (int) $widget_random_one_cat['show_post_title'];
 	$show_custom_fields = (int) $widget_random_one_cat['show_custom_fields'];
 
