@@ -2,7 +2,7 @@
 /*
 Plugin Name: Random One Cat Widget
 Description: This Widget shows a single random post from a given category.
-Author: Fecûndvs
+Author: Fecundvs
 Version: 1.2
 Author URI: http://fecundvs.com/
 Plugin URI: http://wordpress.org/extend/plugins/random-one-cat-widget/

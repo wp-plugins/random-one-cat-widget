@@ -1,5 +1,5 @@
 === Random One Cat Widget ===
-Contributors: Fecûndvs
+Contributors: Fecundvs
 Tags: widget, random, post, random post, sidebar
 Requires at least: 2.5
 Tested up to: 2.9.1
