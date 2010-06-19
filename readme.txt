@@ -3,7 +3,7 @@ Contributors: Fecundvs
 Tags: widget, random, post, random post, sidebar
 Requires at least: 2.5
 Tested up to: 3.0
-Stable tag: 1.2
+Stable tag: 1.3
 
 This Widget shows a single random post from a given category.
 

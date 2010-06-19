@@ -3,7 +3,7 @@
 Plugin Name: Random One Cat Widget
 Description: This Widget shows a single random post from a given category.
 Author: Fecûndvs
-Version: 1.2
+Version: 1.3
 Author URI: http://fecundvs.com/
 Plugin URI: http://wordpress.org/extend/plugins/random-one-cat-widget/
 */
@@ -34,8 +34,12 @@ function widget_random_one_cat_init() {
 		$rand = get_posts('numberposts=1&category='.$category.'&orderby=rand');
 
 		echo $before_widget;
-		echo $before_title . $title . $after_title;
 		if ($show_post_title == 1) {
+			echo $before_title.$title.$after_title;
+		} elseif ($show_post_title == 2) {
+			echo $before_title.$rand[0]->post_title.$after_title;
+		} elseif ($show_post_title == 3) {
+			echo $before_title.$title.$after_title;
 			?>
 			<h3><?php echo $rand[0]->post_title; ?></h3>
 			<?php
@@ -106,7 +110,7 @@ function widget_random_one_cat_init() {
 		if (-1 == $number) {
 			$title              = __('Random Post');
 			$category           = 1;
-			$show_post_title    = 1;
+			$show_post_title    = 3;
 			$show_custom_fields = 1;
 			$error              = false;
 			$number             = '%i%';
@@ -172,9 +176,21 @@ function widget_random_one_cat_form($args, $inputs = null) {
 	if ($inputs['show_post_title']) {
 		?>
 			<p>
-				<label for="random_one_cat-show_post_title-<?php echo $number; ?>">
-					<input id="random_one_cat-show_post_title-<?php echo $number; ?>" name="widget-random_one_cat[<?php echo $number; ?>][show_post_title]" type="checkbox" value="1" <?php if ( $show_post_title ) echo 'checked="checked"'; ?>/>
-					<?php _e('Show Post Title?'); ?>
+				<label for="random_one_cat-show_post_title-<?php echo $number; ?>"><?php _e('Select Titles to Show:'); ?><br />
+					<select id="random_one_cat-show_post_title-<?php echo $number; ?>" name="widget-random_one_cat[<?php echo $number; ?>][show_post_title]">
+						<?php
+							$option = '';
+							$labels = array(0 => __('Neither'), 1 => __('Widget Title'), 2 => __('Post Title'), 3 => __('Both'));
+							for ($p = 0; $p < 4; $p++) {
+								if ($p == $show_post_title) {
+									$option .= '<option selected="selected" value="'.$p.'">'.$labels[$p].'</option>';
+								} else {
+									$option .= '<option value="'.$p.'">'.$labels[$p].'</option>';
+								}
+							}
+							echo $option;
+						?>
+					</select>
 				</label>
 			</p>
 		<?php
