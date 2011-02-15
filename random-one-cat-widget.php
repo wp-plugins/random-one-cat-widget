@@ -48,14 +48,14 @@ class RandomOneCatWidget extends WP_Widget {
       switch ($show_post_title) {
         case 1:
         case 3:
-          echo $show_post_title.' '.$before_title.$title.$after_title;
+          echo $before_title.$title.$after_title;
           break;
       }
       foreach ($rand as $r => $values) {
 
         switch ($show_post_title) {
           case 2:
-            echo $show_post_title.' '.$before_title.$rand[$r]->post_title.$after_title;
+            echo $before_title.$rand[$r]->post_title.$after_title;
             break;
           case 3:
             echo '<h4>'.$rand[$r]->post_title.'</h4>';
