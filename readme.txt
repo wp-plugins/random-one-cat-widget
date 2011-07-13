@@ -2,7 +2,7 @@
 Contributors: BrokenCrust
 Tags: widget, random, post, random post
 Requires at least: 2.8
-Tested up to: 3.1
+Tested up to: 3.2.1
 Stable tag: 2.1
 License: GPLv2 or later
 
@@ -42,6 +42,7 @@ Installing is pretty easy takes only a minute or two.
 == Changelog ==
 
 = 2.1 =
+
 * Fixed custom field bug
 * Fixed empty value issue
 * Added option to display only title links
@@ -92,8 +93,8 @@ Installing is pretty easy takes only a minute or two.
 
 = 0.2 =
 
-Complete overhaul for 2.5 compatibility
+* Complete overhaul for 2.5 compatibility
 
 = 0.1 =
 
-Initial Release
+* Initial Release
