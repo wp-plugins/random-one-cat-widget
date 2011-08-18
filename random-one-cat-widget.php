@@ -3,7 +3,7 @@
 Plugin Name: Random One Cat Widget
 Description: This Widget shows up to five random posts from a given category.
 Author: BrokenCrust
-Version: 2.1
+Version: 2.2
 Author URI: http://brokencrust.com/
 Plugin URI: http://brokencrust.com/plugins/random-one-cat-widget/
 License: GPLv2 or later
@@ -52,6 +52,7 @@ class RandomOneCatWidget extends WP_Widget {
           echo $before_title.$title.$after_title;
           break;
       }
+      if ($title_links == 1) { echo '<ul>'; }
       foreach ($rand as $r => $values) {
 
         if ($title_links == 0) {
@@ -65,7 +66,7 @@ class RandomOneCatWidget extends WP_Widget {
           }
         }
         if ($title_links == 1) {
-          echo '<div><a href="'.get_permalink($rand[$r]->ID).'">'.$rand[$r]->post_title.'</a></div>';
+          echo '<li><a href="'.get_permalink($rand[$r]->ID).'">'.$rand[$r]->post_title.'</a></li>';
         } else {
           echo '<div>'.do_shortcode($rand[$r]->post_content).'</div>';
 
@@ -93,6 +94,7 @@ class RandomOneCatWidget extends WP_Widget {
           }
         }
       }
+      if ($title_links == 1) { echo '</ul>'; }
       echo $after_widget;
     }
   }
