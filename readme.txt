@@ -2,8 +2,8 @@
 Contributors: BrokenCrust
 Tags: widget, random, post, random post
 Requires at least: 2.8
-Tested up to: 3.3
-Stable tag: 2.2
+Tested up to: 3.1
+Stable tag: 2.3
 License: GPLv2 or later
 
 This Widget shows up to five random posts from a given category
@@ -40,6 +40,9 @@ Installing is pretty easy takes only a minute or two.
 
 
 == Changelog ==
+
+= 2.3 =
+* Added the option to shorten posts to the More... marker
 
 = 2.2 =
 * Added an unordered list for title only displays
