@@ -2,7 +2,7 @@
 Contributors: BrokenCrust
 Tags: widget, random, post, random post
 Requires at least: 2.8
-Tested up to: 3.5
+Tested up to: 3.5.1
 Stable tag: 2.3
 License: GPLv2 or later
 
