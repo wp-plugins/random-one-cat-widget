@@ -1,9 +1,9 @@
 === Random One Cat Widget ===
 Contributors: BrokenCrust
 Tags: widget, random, post, random post
-Requires at least: 2.8
-Tested up to: 3.9
-Stable tag: 2.3
+Requires at least: 3.0
+Tested up to: 4.0
+Stable tag: 2.4
 License: GPLv2 or later
 
 This Widget shows up to five random posts from a given category
@@ -40,6 +40,9 @@ Installing is pretty easy takes only a minute or two.
 
 
 == Changelog ==
+
+= 2.4 =
+* Increased maximum posts that can be shown to eight
 
 = 2.3 =
 * Added the option to shorten posts to the More... marker
