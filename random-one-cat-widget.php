@@ -10,7 +10,7 @@ License: GPLv2 or later
 Text Domain: random-one-cat-widget
 */
 
-/*  Copyright 2009-14  BrokenCrust  (email : bc@brokencrust.com)
+/*  Copyright 2009-14  BrokenCrust
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License, version 2, as
